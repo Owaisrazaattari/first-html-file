@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body bgcolor="#D3F0F2">
+    <h1><b>
+        <center>Student Registration Form</center>
+    </b>
+    </h1>
+    <form action="" method="get"></form><p>First Name
+        <input type="text">max 30 characters a-z and A-Z
+    </p>
+    <p>Last name
+        <input type="text">max 30 characters a-z and A-Z
+    </p>
+    <p>Date of Birth
+        <select name="" id="">
+            <option value="01">01</option>
+            <option value="04">04</option>
+        </select>
+        <select name="" id="" size>
+             <option value="jan">jan</option>
+             <option value="feb">feb</option>
+        </select>
+        <select name="" id="">
+            <option value="1999">1999</option>
+            <option value="2001">2001</option>
+        </select>
+        <p>Email ID  <input type="text">
+        <p>Mobile Number <input type="text" name="" id=""> 10 digit Number
+    <p>Gender   <input type="checkbox" name="" id="">Male<input type="checkbox" name="" id="">Female</p>
+   <p>Adress <br>
+     <textarea name="" id="" cols="20" rows="4"></textarea>
+    <p>City
+        <input type="text"> max 30 characters a-z and A-Z
+        <p>Pin code 
+            <input type="password" name="pin code" id="pin code" size="7"> 6 digit number
+            <p>State
+                <input type="text"> max 30 characters a-z and A-Z
+                <p>Country
+                    <input type="Pakistan">
+                    <p>Hobbies    <input type="checkbox" name="" id="">Drawing <input type="checkbox" name="" id="">Study <input type="checkbox" name="" id=""> Gaming
+                    <br>
+                    <br>
+                    <b>Qualifications</b>
+                    <table>
+                            <tr>
+                               <th>S.No. Examination <br><input type=></th>
+                                <th>Board <br><input type="text" name="" id=""></th>
+                                <th>Percentage <br><input type="text" name="" id=""></th>
+                                <th>Year of Passing <br><input type="text" name="" id=""></th>
+                            </tr>
+                        </table>
+                    
+</body>
+</html>
